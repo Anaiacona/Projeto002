@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acessibilidade</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>HTML Semântico</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="serviços.html">Serviços</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="inicio">
+            <h2>Bem vindo a Acessibilidade</h2>
+            <p>Este é o início de uma jornada de conhecimento e acessibilidade. Aqui você encontrará informações sobre como tornar a web um local mais democrativo e acessível a todos.</p>
+        </section>
+
+        <section id="sobre">
+            <h2>Primeiro crie um site com HTML semântico</h2>
+            <p>Isso tornará a experiência do usuário positiva.</p>
+        </section>
+
+        <section id="servicos">
+            <h2>Utilize fontes que facilitem a leitura </h2>
+            <ul>
+                <li>
+                    <h3>Inclua textos alternativos</h3>
+                    <p>Ao adicionar uma imagem inclua alts.</p>
+                    <img src="./assets/pexels-shvets-production-7516363.jpg" alt="Jovens em vídeo chamada se comunicando com linguagem de sinais" title="Jovens em vídeo chamada se comunicando com linguagem de sinais"> 
+                   
+                <li>
+                    <h3>Que tal alto contraste?!</h3>
+                    <p>É importante ir além da estética ao criar um site, o layout e as cores poderão ajudar alguém a encontrar o que busca</p>
+                </li>
+                <li>
+                    <h3>Construa uma hierarquia de conteúdos em seu site</h3>
+                    <p>Utilize tags como h1 para titulo principal, h2 para subtitulos, evite dev. </p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Você pode entrar em contato comigo através do formulário abaixo:</p>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Meu Site Semântico</p>
+    </footer>
+</body>
+</html>
